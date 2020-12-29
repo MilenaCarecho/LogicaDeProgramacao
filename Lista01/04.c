@@ -3,6 +3,10 @@
 
 #include <stdio.h>
 int main () {
-
+    float n, n5;
+    printf("Insira um numero:");
+    scanf("%f", &n);
+    n5=n/5;
+    printf("a quinta parte do numero %.2f eh %.2f", n, n5);
 }
 
